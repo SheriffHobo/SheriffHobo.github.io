@@ -172,7 +172,7 @@ transition-duration: .5s;
 #word:hover{
 border-width: 4px;
 border-color: rgb(255, 30, 135);
-transform: scale(1.2) translateX(-20px) translateY(-20px)
+transform: rotate(360deg) translateX(-20px) translateY(-20px)
 }
 
 #rpg:hover{
@@ -184,13 +184,13 @@ transform: scale(1.2) translateX(0px) translateY(-20px)
 #trivia:hover{
 border-width: 4px;
 border-color: rgb(255, 30, 135);
-transform: scale(1.2) translateX(20px) translateY(-20px)
+transform: rotate(360deg) translateX(20px) translateY(-20px)
 }
 
 #rutger:hover{
 border-width: 4px;
 border-color: rgb(255, 30, 135);
-transform: scale(1.2) translateX(-20px) translateY(20px)
+transform: rotate(360deg) translateX(-20px) translateY(20px)
 }
 
 #rock:hover{
