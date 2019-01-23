@@ -96,21 +96,21 @@ transition-duration: .5s; /* notes how long it takes the hover action to complet
 
 .about:hover{ /* ":hover" notes that "on mouse hover..." */
   border-right: none; /* this action has no border */
-  color: #999; /* the animation can take on any assigned color */
+  color: rgb(216, 0, 0); /* the animation can take on any assigned color */
   transform: scale(1.25) translateY(-5px) translateX(-5px); /* tells the browser what the "on hover" will do to the element */
   z-index: 1; /* places the aniation above the nav links themselves */
 }
 
 .portfolio:hover{
   border-right: none;
-  color: #999;
+  color: rgb(5, 81, 221);
   transform: scale(1.25) translateY(0px) translateX(0px);
   z-index: 1;
 }
 
 .contact:hover{
   border-right: none;
-  color: #999;
+  color: rgb(161, 0, 94);
   transform: scale(1.25) translateY(5px) translateX(5px);
   z-index: 1;
 }
