@@ -183,6 +183,7 @@ transform: rotate(360deg) translateX(-20px) translateY(-20px)
 #rpg:hover{
 border-color: rgb(255, 30, 135);
 border-width: 2px;
+z-index: 1;
 transform: scale(1.2) translateX(0px) translateY(-20px)
 }
 
@@ -201,6 +202,7 @@ transform: rotate(360deg) translateX(-20px) translateY(20px)
 #rock:hover{
 border-color: rgb(255, 30, 135);
 border-width: 2px;
+z-index: 1;
 transform: scale(1.2) translateX(0px) translateY(20px)
 }
 
