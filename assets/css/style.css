@@ -160,8 +160,8 @@ text-align: center;
 .work {
 float: left; /* each .work will "stack", to the left */
 position: relative; /* each .work will be relative to each other */
-width: 265px;
-height: 199px;
+width: 30%; /* each image will take up 30% of the maindiv */
+height: 195px;
 margin: 10px;
 border: 1px solid #4aaaa5;
 border-radius: 10px;
@@ -181,9 +181,9 @@ transform: rotate(360deg) translateX(-20px) translateY(-20px)
 }
 
 #rpg:hover{
+z-index: 1;
 border-color: rgb(255, 30, 135);
 border-width: 2px;
-z-index: 1;
 transform: scale(1.2) translateX(0px) translateY(-20px)
 }
 
@@ -200,9 +200,9 @@ transform: rotate(360deg) translateX(-20px) translateY(20px)
 }
 
 #rock:hover{
+  z-index: 1;
 border-color: rgb(255, 30, 135);
 border-width: 2px;
-z-index: 1;
 transform: scale(1.2) translateX(0px) translateY(20px)
 }
 
