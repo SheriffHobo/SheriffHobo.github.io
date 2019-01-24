@@ -16,8 +16,8 @@ box-sizing: border-box; /* includes the margin & padding in the overall box size
 
 #maincontainer {
 padding-top: 130px; /* pushed the container down from the top of the page by 130px */
-/* min-height: calc(100vh - 70px); | !! what does this do? */
 }
+
 .container {
 width: 100%; /* use 100% of the 960px */
 max-width: 960px; /* container width */
@@ -31,7 +31,7 @@ max-width: 960px;
 padding: 30px; /* places a 30px padding around everything in this div */
 margin: 0 0 40px; /* sets a 40px margin from the bottm */
 background: #ffffff; /* sets the background color for this div */
-border: 1px solid #dddddd; /* gives this div a 1px, solid line border */
+border: 2px solid #4aaaa5; /* gives this div a 1px, solid line border */
 }
 
 h1, h2, h3, p { /* will cause the following code to apply to each class llisted */
@@ -167,11 +167,13 @@ width: 265px;
 height: 199px;
 margin: 15px;
 border: 1px solid #4aaaa5;
+border-radius: 10px;
 transition-duration: .5s;
 }
 
 .work img { /* applies to each pic */
 width: 100%;
+border-radius: 10px;
 margin: 0 auto;
 }
 
@@ -250,4 +252,26 @@ color: #ffffff;
 cursor: pointer; /* changes the type of point displayed when hovering over the button */
 background: #4aaaa5;
 border: 0 none;
+}
+
+/* Sidebar */
+
+.sidebar {
+float: left;
+width: 100%;
+max-width: 300px;
+padding: 20px;
+margin: 0 20px; /* sets a left/right margin */
+background: #ffffff; /* sets the background color for this div */
+border: 2px solid #4aaaa5; /* gives this div a 2px, solid line border */
+}
+
+.sbh2 { /* applies to the sidebar h2 heading */
+text-align: center;
+border-bottom: 3px solid #dddddd;
+line-height: 57px;
+}
+
+.social { /* applies to each pic */
+width: 30%;
 }
