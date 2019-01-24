@@ -8,10 +8,6 @@ color: #777777; /* sets text color */
 background-image: url(../images/bg_leather.jpg); /* sets page background image */
 }
 
-* { /* wild card that will apply to all boxes */
-box-sizing: border-box; /* includes the margin & padding in the overall box size */
-}
-
 /* global */
 
 #maincontainer {
