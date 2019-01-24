@@ -76,6 +76,11 @@ line-height: 90px;
 color: #ffffff;
 text-align: center; /* aligns the text center to the logo box it's in */
 background: #4aaaa5; /* sets the background color for the logo box */
+transition: 2s;
+}
+
+.logo:hover {
+  background-color: coral;
 }
   
 nav {
