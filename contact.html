@@ -1,70 +1,83 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>About | Damon</title>
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Bootstrap Portfolio</title>
+  </head>
 
-<body>
-    <div class="masthead">
-        <div class="mastdetails">
-            <div class="logo" href="index.html">Damon Gregory
-            </div>
-            <nav>
-                <a class="about" href="index.html">About</a>
-                <span>|</span>
-                <a class="portfolio" href="portfolio.html">Portfolio</a>
-                <span>|</span>
-                <a class="contact" href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </div>
-
-    <div id="maincontainer" class="container">
-        <div class="maindiv">
-            <h1>Contact</h1>
-            <form id="contactform">
-            <ul>
-                <li>
-                    <label for="fname"> First Name</label>
-                    <input type="text" id="name" placeholder="Magus" required="required">
-                </li>
-                <li>
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="name" placeholder="Artifex" required="required">
-                    </li>
-                <li>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="magusartifex@gmail.com" required="required">
-                </li>
-                <li>
-                    <label for="message">Message</label>
-                    <textarea id="message" required="required"></textarea>
-                </li>
-             </ul>
-                <input type="submit" value="Engage">
-            </form>
-        </div>
-    </div>
-
-    <div class="sidebar">
-        <div id="connect">
-          <h2 class="sbh2">Connect with Me</h2>  
-              <a href="#"><img src="assets/images/github.jpg" class="social" alt="Github"></a>
-              <a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn"></a>
-              <a href="#"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow"></a>
-        </div>
-    </div>
-
-    <div class="footer">
-        <p class="p2">Copyright ©</p>
-    </div>
+  <body>
     
-</body>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light">
+        </div class="container-fluid">
+            <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcoll">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" id="navbar-brand" href="#">Damon Gregory</a>
+            </div>
+        
+            <div id="navcoll" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html" class="nav-link">About</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        
+        </div>
+    </nav>
+        
+    <div class="container">
 
+            <div class="row">
+                <div class="col-md-12">
+                <br>
+                <h1>Contact</h1>
+                <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                    <div class="col-md-12">
+                      <form>
+
+                        <div class="form-group">
+                          <label for="name">First Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Magus">
+                        </div>
+
+                        <div class="form-group">
+                                <label for="name">Last Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Artifex">
+                              </div>
+
+                        <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea class="form-control" id="message" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+            </div>
+
+    </div>
+                  
+    <footer class="navbar-fixed-bottom navbar-dark bg-dark">
+        <div class="text-center">
+            <p class="navbar-text">Copyright &copy;</p>
+        </div>
+    </footer>
+
+</body>
 </html>
+    

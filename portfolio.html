@@ -1,73 +1,98 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>About | Damon</title>
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-</head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Bootstrap Portfolio</title>
+  </head>
 
-<body>
-    <div class="masthead">
-        <div class="mastdetails">
-            <div class="logo" href="index.html">Damon Gregory
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light">
+        </div class="container-fluid">
+            <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcoll">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" id="navbar-brand" href="#">Damon Gregory</a>
             </div>
-            <nav>
-                <a class="about" href="index.html">About</a>
-                <span>|</span>
-                <a class="portfolio" href="portfolio.html">Portfolio</a>
-                <span>|</span>
-                <a class="contact" href="contact.html">Contact</a>
-            </nav>
+
+            <div id="navcoll" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html" class="nav-link">About</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+            <br>
+            <h1>Portfolio</h1>
+            <hr>
             </div>
         </div>
 
-    <div id="maincontainer" class="container">
-        <div class="maindiv">
-            <h1>Portfolio</h1>    
-            <div class="work" id="word">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+            <article class="pbox img-fluid">
                 <img src="assets/images/wordguess.jpg" alt="Word Guess">
-                <h3>Word Guess</h3>
+                <h2 class="project-title">Word Guess</h2>
+            </article>
             </div>
-            <div class="work" id="rpg">
-                <img src="assets/images/rpg.jpg" alt="RPG Game">
-                <h3>RPG Game</h3>
-            </div>
-            <div class="work" id="trivia">                  
-                <img src="assets/images/trivia.jpg" alt="Trivia Game">
-                <h3>Trivia Game</h3>
-            </div>                  
-            <div class="work" id="rutger">
-                <img src="assets/images/rutgers.jpg" alt="Rutgers Info Widget">
-                <h3>Rutgers Info Widget</h3>
-            </div>
-            <div class="work" id="rock">
-                <img src="assets/images/rockpaperscissor.jpg" alt="Rock Paper Scissors">
-                <h3>Rock Paper Scissors</h3>
-            </div>    
-            <div class="work" id="what">
-                <img src="assets/images/whatnext.jpg" alt="What's Next?">
-                <h3>?</h3>
-            </div>  
-        </div>        
-    </div>
 
-    <div class="sidebar">
-        <div id="connect">
-          <h2 class="sbh2">Connect with Me</h2>  
-              <a href="#"><img src="assets/images/github.jpg" class="social" alt="Github"></a>
-              <a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn"></a>
-              <a href="#"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow"></a>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+            <article class="pbox  img-fluid">
+                <img src="assets/images/rpg.jpg" alt="RPG Game">
+                <h2 class="project-title">RPG Game</h2>
+            </article>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+            <article class="pbox  img-fluid">
+                <img src="assets/images/trivia.jpg" alt="Trivia Game">
+                <h2 class="project-title">Trivia Game</h2>
+            </article>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+            <article class="pbox  img-fluid">
+                <img src="assets/images/rutgers.jpg" alt="Rutgers Info Widget">
+                <h2 class="project-title">Rutgers Info Widget</h2>
+            </article>
+            </div>
+        
+            <div class="col-xs-12 col-sm-6 col-md-4">
+            <article class="pbox  img-fluid">
+                <img src="assets/images/rockpaperscissor.jpg" alt="Rock Paper Sissors">
+                <h2 class="project-title">Rock Papper Scissors</h2>
+            </article>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
+            <article class="pbox  img-fluid">
+                <img src="assets/images/whatnext.jpg" alt="What's Next?">
+                <h2 class="project-title">?</h2>
+            </article>
+            </div>
         </div>
     </div>
+          
+    <footer class="footer navbar-dark bg-dark">
+        <div class="text-center">
+            <p class="navbar-text">Copyright &copy;</p>
+        </div>
+    </footer>
 
-    <div class="footer">
-        <p class="p2">Copyright ©</p>
-    </div>
-    
 </body>
-
 </html>
