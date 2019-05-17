@@ -1,0 +1,217 @@
+/* BODY */
+body {
+  background-image: url(../../assets/images/foggyggbridge.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+/* NAV */
+.navbar {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.about {
+	line-height: 2;
+	min-width: 200px;
+	height: 40px;
+	margin: 5px;
+	box-shadow: inset 0 -40px 0 0 rgba(0,0,0,.1);
+	text-align: center;
+	color: #f4f4f4;
+	text-shadow: 0 0 3px #000;
+	cursor: pointer;
+}
+
+.portfolio {
+	line-height: 2;
+	min-width: 200px;
+	margin: 5px;
+	box-shadow: inset 0 -40px 0 0 rgba(0,0,0,.1);
+	text-align: center;
+	color: #f4f4f4;
+	text-shadow: 0 0 3px #000;
+	cursor: pointer;
+}
+
+/* MAIN */
+#main {
+	position:absolute;
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.flex {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.2rem;
+	height: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	animation: fadein 5s;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.flex-item {
+	flex: 0 auto;
+}
+
+.thumbnail-grid figure {
+	position: relative;
+	width: 200px;
+	height: 150px;
+	margin: 5px;
+	box-shadow: inset 0 -40px 0 0 rgba(0,0,0,.1);
+	transition: all .2s ease-in-out;
+}
+
+.thumbnail-grid figure:hover {
+	box-shadow: inset 0 -150px 0 0 rgba(0,0,0,.5);
+}
+
+.thumbnail-grid figcaption {
+	position: absolute;
+	line-height: 1;
+	width: 100%;
+	text-align: center;
+	color: #f4f4f4;
+	text-shadow: 0 0 3px #000;
+	bottom: 10px;
+	visibility: visible;
+}
+
+.thumbnail-grid figure.i1:hover {
+	background: url(../../assets/images/triviaquestsmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+.thumbnail-grid figure.i2:hover {
+	background: url(../../assets/images/DRIVscreencap.png) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+.thumbnail-grid figure.i3:hover {
+	background: url(../../assets/images/jspongsmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+.thumbnail-grid figure.i4:hover {
+	background: url(../../assets/images/gifgeneratorsmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+.thumbnail-grid figure.i5:hover {
+	background: url(../../assets/images/nytsearchsmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+.thumbnail-grid figure.i6:hover {
+	background: url(../../assets/images/psychihcguesssmall.PNG) no-repeat center;
+	background-size: cover;
+	animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* CONTACT */
+#contact {
+	position:absolute;
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.contactsection figure {
+	position: relative;
+	width: 900px;
+	height: 800px;
+	box-shadow: inset 0 -800px 0 0 rgba(0,0,0,.1);
+}
+
+.contactsection figcaption {
+	line-height: 1;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #f4f4f4;
+	text-shadow: 0 0 3px #000;
+	bottom: 10px;
+	visibility: visible;
+}
+
+.headpic {
+	max-width: 450px;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+
+.tocontact {
+	max-width: 450px;
+	text-align: center;
+	color: #f4f4f4;
+	text-shadow: 0 0 3px #000;
+	position: absolute;
+	bottom: 5%;
+	left: 17%;
+}
+
+.abouttext {
+	max-width: 330px;
+	font-size: .90rem;
+	text-align: justify;
+	color: #ffffff;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+p.textbody {
+	margin: 5px;
+}
+
+a, a:hover, a:link, a:visited {
+	color: #f4f4f4;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 767px) {
+	.navbar {
+		justify-content: center;
+	}
+
+	.container-fluid {
+		width: 90vw;
+	}
+
+	#contact {
+		margin-top: 10vh;
+	}
+
+	#main {
+		margin-top: 10vh;
+	}
+}
