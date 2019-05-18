@@ -18,7 +18,7 @@ $(function () {
             marquee.style.display = 'none';
         } else {
             marquee.style.display = 'none';
-            marquee.style.display = 'block';
+            marquee.style.display = 'none';
             }
     });
 
@@ -36,7 +36,7 @@ $(function () {
             marquee.style.display = 'none';
         } else {
             marquee.style.display = 'none';
-            marquee.style.display = 'block';
+            marquee.style.display = 'none';
             }
     });
 
