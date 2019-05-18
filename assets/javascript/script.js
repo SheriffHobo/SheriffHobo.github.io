@@ -16,11 +16,7 @@ $(function () {
     $('#portfolio').on("click", () => {
         if (marquee.style.display === 'block') {
             marquee.style.display = 'none';
-        } else {
-            marquee.style.display = 'none';
-            marquee.style.display = 'none';
-            }
-    });
+    };
 
     $('#about').on("click", () => {
         if (contact.style.display === 'block') {
@@ -34,11 +30,7 @@ $(function () {
     $('#about').on("click", () => {
         if (marquee.style.display === 'block') {
             marquee.style.display = 'none';
-        } else {
-            marquee.style.display = 'none';
-            marquee.style.display = 'none';
-            }
-    });
+    };
 
     // MODALS
     $('[data-toggle="popover"]').popover({
