@@ -13,6 +13,15 @@ $(function () {
         }
     });
 
+    $('#portfolio').on("click", () => {
+        if (marquee.style.display === 'block') {
+            marquee.style.display = 'none';
+        } else {
+            marquee.style.display = 'none';
+            marquee.style.display = 'block';
+            }
+    });
+
     $('#about').on("click", () => {
         if (contact.style.display === 'block') {
             contact.style.display = 'none';
@@ -20,6 +29,15 @@ $(function () {
         portfolio.style.display = 'none';
         contact.style.display = 'block';
         }
+    });
+
+    $('#about').on("click", () => {
+        if (marquee.style.display === 'block') {
+            marquee.style.display = 'none';
+        } else {
+            marquee.style.display = 'none';
+            marquee.style.display = 'block';
+            }
     });
 
     // MODALS
